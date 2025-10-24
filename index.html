@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ahmed Alluqmani — Personal Site</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/profile.jpg" />
+</head>
+<body>
+  <div class="page">
+    
+    <header class="site-header">
+      <div class="topnav">
+        <div class="brand">Ahmed Alluqmani</div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="schedule.html">Schedule</a>
+          <a href="contact.html">Contact</a>
+        
+          <a class="fragment" href="#about">Go to About</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <main class="main">
+     
+      <aside class="sidebar" aria-label="Sidebar">
+        <div class="profile">
+          
+          <img src="images/profile.jpg" alt="Profile photo of Ahmed Alluqmani" />
+          <div class="name">Ahmed Alluqmani</div>
+          <div class="title">IT Student — King Abdulaziz University</div>
+        </div>
+
+      
+        <div class="side-links">
+          <a href="mailto:ahmedalluqmani0@gmail.com">Email: ahmedalluqmani0@gmail.com</a>
+          <a href="tel:+966583330004">Tel: +966583330004</a>
+        </div>
+
+
+        <div class="socials" aria-label="Social links">
+         
+          <a href="https://www.linkedin.com/in/ahmed-alluqmani-8242b7350/" target="_blank" rel="noopener">
+            <img src="images/linkedin.png" alt="LinkedIn">
+          </a>
+        </div>
+      </aside>
+
+     
+      <section class="content">
+        
+        <article class="card">
+          <h1>Welcome!</h1>
+          <p>I’m Ahmed, an IT student passionate about AI, data, and building useful tools.</p>
+          <p>
+            This website is built with semantic HTML5 and modern CSS to demonstrate layout, responsiveness, and accessibility basics.
+          </p>
+          <a class="button" href="schedule.html">View My Class Schedule</a>
+        </article>
+
+        
+        <article id="about" class="card">
+     <h3 class="decor">About Me</h3>
+  <p>
+    I’m <strong>Ahmed Alluqmani</strong>, an Information Technology student at 
+    <strong>King Abdulaziz University</strong> with a GPA of <strong>4.59</strong>. 
+    I’m passionate about expanding my technical knowledge and applying it in real projects that make a difference.
+  </p>
+  <p>
+    My journey in tech has been shaped by practical experiences from supporting 
+    administrative operations at <strong>Jamiet Al-Maherat</strong> to assisting in 
+    large-scale logistics for <strong>Nusuk</strong> during the Hajj season, where I helped monitor 
+    and audit over 100 hotels. These roles strengthened my organization, teamwork, and problem-solving skills 
+    under pressure.
+  </p>
+  <p>
+    I’m particularly interested in <strong>Machine Learning</strong> and <strong>AI development</strong>. 
+    I’ve completed certifications including <em>KAUST’s Advance AI Program</em> and 
+    <em>IBM’s Supervised Machine Learning: Regression</em> course. My goal is to continue building 
+    technical and analytical skills that enable smarter, data-driven solutions.
+  </p>
+  <ul>
+    <li><strong>Programming:</strong> Java, Python</li>
+    <li><strong>Soft Skills:</strong> Time Management, Adaptability, Continuous Learning</li>
+  </ul>
+</article>
+
+        
+        <article class="card">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#about">Jump to About section</a></li>
+            <li><a href="contact.html">Contact Form</a></li>
+            <li><a href="schedule.html">Class Schedule</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    
+    <footer class="site-footer">
+      © <span id="year"></span> Ahmed Alluqmani — CPIT-405 Assignment 1
+    </footer>
+  </div>
+
+  <script>
+    
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

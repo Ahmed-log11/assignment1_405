@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Class Schedule — Ahmed Alluqmani</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/profile.jpg" />
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="topnav">
+        <div class="brand">Ahmed Alluqmani</div>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="schedule.html">Schedule</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <aside class="sidebar">
+        <div class="profile">
+          <img src="images/profile.jpg" alt="Profile photo of Ahmed Alluqmani" />
+          <div class="name">Ahmed Alluqmani</div>
+          <div class="title">IT Student — King Abdulaziz University</div>
+        </div>
+
+        <div class="side-links">
+          <a href="mailto:ahmedalluqmani0@gmail.com">Email: ahmedalluqmani0@gmail.com</a>
+          <a href="tel:+966583330004">Tel: +966583330004</a>
+        </div>
+
+        <div class="socials" aria-label="Social links">
+          <a href="https://www.linkedin.com/in/ahmed-alluqmani-8242b7350/" target="_blank" rel="noopener">
+            <img src="images/linkedin.png" alt="LinkedIn" />
+          </a>
+        </div>
+      </aside>
+
+      <section class="content">
+        <article class="card">
+          <h1>My Class Schedule</h1>
+          <table class="table striped">
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Course Code</th>
+                <th>Section</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+              <tr>
+                <td rowspan="4">Sunday</td>
+                <td>09:00–10:20</td><td>CPIT-405</td><td>IT1</td>
+              </tr>
+              <tr><td>10:30–11:50</td><td>CPIT-345</td><td>IT1</td></tr>
+              <tr><td>12:00–12:50</td><td>CPIT-405</td><td>IT1</td></tr>
+              <tr><td>13:00–13:50</td><td>CPIT-345</td><td>IT1</td></tr>
+
+              
+              <tr>
+                <td rowspan="2">Monday</td>
+                <td>11:00–12:20</td><td>CPIT-375</td><td>IT1</td>
+              </tr>
+              <tr><td>14:30–15:50</td><td>CPIT-440</td><td>IT1</td></tr>
+
+             
+              <tr>
+                <td rowspan="4">Tuesday</td>
+                <td>07:00–07:50</td><td>CPIT-498</td><td>T26</td>
+              </tr>
+              <tr><td>12:00–12:50</td><td>CPIT-405</td><td>IT1</td></tr>
+              <tr><td>13:00–13:50</td><td>CPIT-345</td><td>IT1</td></tr>
+              <tr><td>14:00–14:50</td><td>CPIT-440</td><td>IT1</td></tr>
+
+              
+              <tr><td>Wednesday</td><td colspan="3">No Classes</td></tr>
+
+              
+              <tr>
+                <td rowspan="4">Thursday</td>
+                <td>07:00–07:50</td><td>CPIT-498</td><td>T26</td>
+              </tr>
+              <tr><td>12:00–12:50</td><td>CPIT-405</td><td>IT1</td></tr>
+              <tr><td>13:00–13:50</td><td>CPIT-345</td><td>IT1</td></tr>
+              <tr><td>14:00–14:50</td><td>CPIT-440</td><td>IT1</td></tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="card">
+          <h2>Courses I Took</h2>
+          <table class="table striped">
+            <thead>
+              <tr><th>#</th><th>Course Code</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td>CPIT-380</td></tr>
+              <tr><td>2</td><td>CPIT-240</td></tr>
+              <tr><td>3</td><td>CPIT-334</td></tr>
+              <tr><td>4</td><td>CPIT-305</td></tr>
+              <tr><td>5</td><td>CPIT-210</td></tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      © <span id="year"></span> Ahmed Alluqmani — CPIT-405 Assignment 1
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
